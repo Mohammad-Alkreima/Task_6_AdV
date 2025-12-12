@@ -12,7 +12,6 @@ import BlogDetailPage from "./pages/BlogDetailPage";
 import ProjectsPage from "./pages/ProjectsPage";
 import AboutPage from "./pages/AboutPage";
 import NewsletterPage from "./pages/NewsletterPage";
-import NotFoundPage from "./pages/NotFoundPage";
 
 const router = createBrowserRouter([
     {
@@ -23,8 +22,7 @@ const router = createBrowserRouter([
             { path: "blog/:id", element: <BlogDetailPage /> }, 
             { path: "projects", element: <ProjectsPage /> },
             { path: "about", element: <AboutPage /> },
-            { path: "newsletter", element: <NewsletterPage /> },
-            { path: "*", element: <NotFoundPage /> },
+            { path: "newsletter", element: <NewsletterPage /> }
         ],
     },
 ]);
