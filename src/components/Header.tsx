@@ -54,14 +54,14 @@ const Header = () => {
                         className="ml-2 sm:ml-4 h-8 w-24 flex items-center justify-between bg-[#090D1F] dark:bg-white rounded-full px-4 transition relative"
                     >
                         <div className="relative">
-                            <img src="/assets/icons/sun.svg" alt="" className="w-5 h-5" />
+                            <img src="/assets/icons/sun.svg" alt="sun icon" className="w-5 h-5" />
                             {theme === "dark" && (
                                 <span className="absolute inset-0 rounded-full ring-2 bg-[#090D1F]"></span>
                             )}
                         </div>
 
                         <div className="relative">
-                            <img src="/assets/icons/moon.svg" alt="" className="w-5 h-5" />
+                            <img src="/assets/icons/moon.svg" alt="moon icon" className="w-5 h-5" />
                             {theme === "light" && (
                                 <span className="absolute inset-0 rounded-full ring-2 bg-white"></span>
                             )}
@@ -73,7 +73,7 @@ const Header = () => {
                 <button onClick={handleMenuToggle} className="md:hidden">
                     <img
                         src={theme === "light" ? "/assets/isons/menu-dark.svg" : "/assets/icons/menu-light.svg"}
-                        alt=""
+                        alt="menu icon"
                         className="w-6 h-6"
                     />
                 </button>
@@ -124,14 +124,14 @@ const Header = () => {
                         className="h-8 w-24 px-4 flex items-center justify-between bg-[#090D1F] dark:bg-white rounded-full transition relative"
                     >
                         <div className="relative">
-                            <img src="/assets/icons/sun.svg" alt="" className="w-5 h-5" />
+                            <img src="/assets/icons/sun.svg" alt="sun icon" className="w-5 h-5" />
                             {theme === "dark" && (
                                 <span className="absolute inset-0 rounded-full ring-2 bg-[#090D1F]"></span>
                             )}
                         </div>
 
                         <div className="relative">
-                            <img src="/assets/icons/moon.svg" alt="" className="w-5 h-5" />
+                            <img src="/assets/icons/moon.svg" alt="moon icon" className="w-5 h-5" />
                             {theme === "light" && (
                                 <span className="absolute inset-0 rounded-full ring-2 bg-white"></span>
                             )}
@@ -142,7 +142,7 @@ const Header = () => {
                     <button onClick={handleMenuToggle} className="absolute bottom-6">
                         <img
                             src={theme === "light" ? "/assets/icons/close-dark.svg" : "/assets/icons/close-light.svg"}
-                            alt=""
+                            alt="close icon"
                             className="w-6 h-6"
                         />
                     </button>

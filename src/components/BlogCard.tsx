@@ -67,7 +67,7 @@ const BlogCard = ({
                                     ? "/assets/icons/readMore.svg"
                                     : "/assets/icons/readMoreDark.svg"
                             }
-                            alt=""
+                            alt="arrow icon"
                             className="w-2.5 h-2.5"
                         />
                     </Link>
