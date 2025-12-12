@@ -72,7 +72,7 @@ const Header = () => {
                 {/* Mobile Menu Icon */}
                 <button onClick={handleMenuToggle} className="md:hidden">
                     <img
-                        src={theme === "light" ? "/assets/isons/menu-dark.svg" : "/assets/icons/menu-light.svg"}
+                        src={theme === "light" ? "/assets/icons/menu-dark.svg" : "/assets/icons/menu-light.svg"}
                         alt="menu icon"
                         className="w-6 h-6"
                     />
